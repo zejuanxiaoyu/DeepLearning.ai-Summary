@@ -528,7 +528,7 @@ Here is the course summary as given on the course [link](https://www.coursera.or
 
 - A 1 x 1 convolution is useful when:
 
-  - We want to shrink the number of channels. We also call this feature transformation.
+  - We want to shrink the number of channels. We also call this feature transformation. Add some non-linearity.
     - In the second discussed example above we have shrinked the input from 32 to 5 channels.
   - We will later see that by shrinking it we can save a lot of computations.
   - If we have specified the number of 1 x 1 Conv filters to be the same as the input number of channels then the output will contain the same number of channels. Then the 1 x 1 Conv will act like a non linearity and will learn non linearity operator. 
